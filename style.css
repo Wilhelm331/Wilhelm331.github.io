@@ -1,0 +1,15 @@
+.header{
+    text-align: center;
+    color: rgb(64, 194, 47);
+    font-size: 25px;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+h1{
+    text-align: center;
+    color: aquamarine;
+    font-size: 25px;
+}
