@@ -17,12 +17,13 @@ body{
 h1{
     color: rgb(199, 39, 172);
     font-weight: 100;
-    font-family: arial;
-    font-size: 34px
+    font-family: Lucida;
+    font-size: 34px;
+    font-size: 35px;
 }
 
 p{
-    font-family: arial;
+    font-family: Lucida;
     font-size: 14px;
     line-height: 150%;
     color: orange;
@@ -35,7 +36,13 @@ img.Tog2{
 
 h3{
     color: rgb(166, 196, 36);
-    font-family: arial;
+    font-family: Lucida;
+    font-size: 25px;
+}
+
+hr{
+    color: pink;
+    border-style: double;
 }
 
 a{
