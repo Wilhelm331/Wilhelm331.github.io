@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(216, 216, 216);
+}
+
+.hejdå{
+    background-color: rgb(255, 255, 255);
+    width: 800px;
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(105, 105, 105);
+    padding: 20px;
+}
+
+h1{
+    color: rgb(199, 39, 172);
+    font-weight: 100;
+    font-family: arial;
+    font-size: 34px
+}
+
+p{
+    font-family: arial;
+    font-size: 14px;
+    line-height: 150%;
+    color: orange;
+}
+
+img.Tog2{
+    float: right;
+    width: 400px;
+}
+
+h3{
+    color: rgb(166, 196, 36);
+    font-family: arial;
+}
+
+a{
+    color: rgb(40, 210, 216);
+}
