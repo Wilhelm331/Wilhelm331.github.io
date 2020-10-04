@@ -16,12 +16,18 @@ h2{
 h3{
     background: rgb( 58, 130, 211);
     padding: 10px;
-    color: white;
+    color: rgb(255, 255, 255);
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
     letter-spacing: 1px;
     margin: 0px;
     margin-top: -5px;
+}
+
+.h3footer{
+    color: black;
+    font-weight: 800;
+    padding: 0px;
 }
 
 .resmal_info{
@@ -78,7 +84,7 @@ header{
 }
 
 .resmal{
-    width: 30%;
+    width: 32%;
     float: left;
     margin-right: 1%;
 }
@@ -100,15 +106,15 @@ footer{
 
 .inner_footer{
     width: 960px;
-    height: 300px;
+    height: 200px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .footerbox{
-    width: 30%;
+    width: 32%;
     margin-left: 1%;
-    height: 300px;
+    height: 200px;
     float: left;
     
 }
