@@ -145,3 +145,15 @@ a:hover{
     background: rgb(74, 120, 189);
     color: white;
 }
+
+.tönt{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    text-transform: none;
+    background: none;
+    padding: 0px;
+    padding-bottom: 0px;
+    border-radius: 0px;
+
+}
