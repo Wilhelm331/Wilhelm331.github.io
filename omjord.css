@@ -1,0 +1,64 @@
+.historyboy{
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    min-height: 1000px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 5px; 
+    border-radius: 10px;
+    background-color: white;
+}
+
+body{
+    background-color: black;
+}
+
+.logo img{
+    width: 300px;
+    float: left; 
+    padding: 5px;
+}
+
+.header{
+    margin-left: 400px;
+}
+
+.header h1{
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.text{
+    margin: 10px;
+    padding: 10px;
+}
+
+.text h2{
+    text-transform: uppercase;
+}
+
+.text p{
+    color: rgb(0, 0, 0);
+}
+
+.betamale img{
+    width: 400px;
+    border-radius: 10px;
+}
+
+.betamale{
+    float: left;
+    padding: 5px;
+}
+
+.betafarmor img{
+    border-radius: 10px;
+    width: 300px;
+}
+
+.betafarmor{
+    padding: 5px;
+    float: right;
+}
