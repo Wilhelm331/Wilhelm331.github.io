@@ -1,64 +1,51 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Javaskript</title>
-</head>
-
-<style>
-
-    body{
-        background-color: rgb(66, 197, 62);
-    }
-
-    img{
-        border-radius: 10px;
-    }
-
-</style>
-<script type="text/javascript" src="ereeg.js"></script>
-
+    <head>
+        <title>Javaskript</title>
+        
+    </head>
 <body>
 
-<h1>Personuppgifter</h1>
+<h1 id="h1" onclick="this.innerHTML='Aaaaaaaa, NOOOOOO'">Wellcome to tha shit</h1>
 
-<p>Fyll i namn och ålder i formuläret nedan</p>
 
-<img src="https://lh3.googleusercontent.com/proxy/e9tf9TCuSUH8aGQwz5Q2xKP7JW5I1FzEq4rJIZThru-tZ19qi15IubqXWQ3ngaNowWCb6WGyzMt6ZLIT9uBd-f59Q_vb3ArNGgfAh1WOvHjDCdmmS1yPlCAyX20VBEtQ7A">
 
-<form>
-<label for="frame">Förnamn</label>
-<br>
-<input type="text" id="fname" value="">
+<button type="button" onclick="document.getElementById('demo').style.display='block'">Click</button>
+<p id="demo" style="display:none"><img src="https://static-ssl.businessinsider.com/image/5b64c0358ea82f32008b4d16-2241/spacex-crew-dragon-spaceship-nasa-commercial-crew-program-illustration-42878298755a9670c6596o.jp2"></p>
 <br>
 <br>
-<label for="frame">Efternamn</label>
-<br>
-<input type="text" id="lname" value="">
-<br>
-<br>
-<label for="frame">Ålder</label>
-<br>
-<input type="number" id="age" value="0">
+<button onclick="myalert()">General Kenobi</button>
+<br><br>
+<button onclick="monki()">Fuck, go back I want to be Monki</button>
+<br><br>
+<button onclick="andra()" >Press, very nice</button>
+<br><br>
+<button onclick="window1()" >very nice</button>
 
-<br>
-<br>
-<input id="button" type="button" onclick="myFunction()" value="Klicka här">
 
-<p id="demo"></p>
+<script>
+function myalert() {
+  alert("Hello There");
+}
 
-</form>
+function monki() {
+  alert("You are now monki");
+  window.open("https://media.npr.org/assets/img/2015/09/23/ap_836720500193-13f1674f764e5180cf9f3349cfef258d181f2b32-s800-c85.jpg");
+}
+
+function andra() {
+document.getElementById("h1").style.color = "blue";
+document.getElementById("h1").style.fontFamily = "Arial";
+document.getElementById("h1").style.fontSize = "100px";
+}
+
+function window1() {
+  window.open("https://www.youtube.com/watch?v=RySHDUU2juM&ab_channel=BadLipReading");
+}
+
+
+</script>
+
 
 </body>
-
 </html>
-
-
-
-
-
-
-
-
-
-
-
