@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(168, 32, 150);
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+.spel{
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+button.monki{
+    color:red;
+    background-color: green;
+    font-size: 100px;
+}
+
+button.monki:hover{
+    color: chartreuse;
+    background-color: rgb(19, 91, 150);
+}
+
+button.spelstart{
+    color: green;
+    background-color: red;
+    font-size: 100px;
+}
+
+button.spelstart:hover{
+    color: rgb(216, 76, 57);
+    background-color: rgb(19, 91, 150);
+}
+
+button.right{
+    color: rgb(168, 32, 150);
+    background-color: rgb(168, 32, 150);
+    font-size: 100px;
+}
+
+button.yes{
+    color: rgb(255, 255, 255);
+    background-color: rgb(63, 54, 107);
+    font-size: 100px;
+    padding: 0%;
+    border-style: none;
+    border-color: rgb(168, 32, 150);
+}
+

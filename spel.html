@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Spel</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="spel.css">
+</head>
+
+<body>
+
+    <div class="fonster">
+
+        <h1>Find the right button and press it, do it now</h1>
+
+        <div class="spel">
+
+            <button onclick="spelstart()" class="spelstart">Starta Spel</button>
+            <button onclick="right1()" class="right">RIGHT</button>
+            <button onclick="this.innerHTML='YES, YOU HAVE DONE IT, NOW FIND A LIFE'" onclick="right()" id="right"
+                class="right">Right</button>
+            <button onclick="yes()" class="yes">YES</button>
+            <button onclick="monki2()" class="monki">Monki</button>
+            <button onclick="this.innerHTML='WRONG'" class="monki">Monki</button>
+            <button onclick="monki4()" class="monki">Monki</button>
+            <button onclick="monki5()" class="monki">Monki</button>
+
+        </div>
+
+    </div>
+
+    <script>
+
+        function spelstart() {
+            alert("really?, find the rigth button")
+        }
+
+        function monki() {
+            alert("Wrong");
+            window.open("https://media.npr.org/assets/img/2015/09/23/ap_836720500193-13f1674f764e5180cf9f3349cfef258d181f2b32-s800-c85.jpg");
+        }
+
+        function monki2() {
+            alert("Wrong, try another monki");
+            window.open("https://www.youtube.com/watch?v=sPRpVL58IKE&ab_channel=BRIGHTSIDE");
+        }
+
+        function monki4() {
+            alert("Wrong, very nice");
+            window.open("https://media.npr.org/assets/img/2015/09/23/ap_836720500193-13f1674f764e5180cf9f3349cfef258d181f2b32-s800-c85.jpg");
+        }
+
+        function monki5() {
+            alert("Wrong again");
+            window.open("https://media.npr.org/assets/img/2015/09/23/ap_836720500193-13f1674f764e5180cf9f3349cfef258d181f2b32-s800-c85.jpg");
+        }
+
+        function yes() {
+            alert("MORE RIGHT, ALMOST RIGHT")
+        }
+
+        function right1() {
+            alert("YES, YOU HAVE DONE IT, NOW FIND A LIFE");
+        }
+
+    </script>
+
+</body>
+
+</html>
