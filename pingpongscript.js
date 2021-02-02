@@ -4,9 +4,9 @@ const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
 
 // some sounds
-const hitSound = new Audio('../sounds/hitSound.wav');
-const scoreSound = new Audio('../sounds/scoreSound.wav');
-const wallHitSound = new Audio('../sounds/wallHitSound.wav');
+const hitSound = new Audio('../hitSound.wav');
+const scoreSound = new Audio('../scoreSound.wav');
+const wallHitSound = new Audio('../wallHitSound.wav');
 
 /* some extra variables */
 const netWidth = 4;
