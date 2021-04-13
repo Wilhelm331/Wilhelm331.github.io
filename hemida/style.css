@@ -5,7 +5,7 @@ html{
 }
 
 body{
-    background-image: url("bilder/mahogny.jpg");
+    background-image: url("mahogny.jpg");
     margin: 20px;
 }
 
@@ -50,11 +50,11 @@ h3{
 
 ::-webkit-scrollbar {
     width: 15px;
-    background-image: url("bilder/mahogny.jpg");
+    background-image: url("mahogny.jpg");
 }
 
 ::-webkit-scrollbar-thumb {
-    background-image: url("bilder/nästanteak.jpg");
+    background-image: url("nästanteak.jpg");
     border-radius: 15px;
 }
 
@@ -106,7 +106,7 @@ li{
 }
 
 .topnav a:hover{
-    background-image: url("bilder/teak.jpg");
+    background-image: url("teak.jpg");
     box-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
     border-style: solid;
     border-radius: 10px;
@@ -124,7 +124,7 @@ li{
 }
 
 .dropbtn:hover{
-    background-image: url("bilder/teak.jpg");
+    background-image: url("teak.jpg");
 }
 
 .båtarnainnehåll {
@@ -133,7 +133,7 @@ li{
     border-radius: 10px;  
     position: absolute;    
     display: none;
-    background-image: url("bilder/teak.jpg");
+    background-image: url("teak.jpg");
 }
 
 .båtarnainnehåll a {
@@ -157,14 +157,14 @@ li{
     display: none;
     margin-right: 40px;
     margin-left: 5%;
-    background-image: url("bilder/teak.jpg");
+    background-image: url("teak.jpg");
     border-style: solid;
     border-radius: 10px;
 }
 
 @media screen and (min-width: 1501px) {
     .head{
-        background-image: url("bilder/mahogny2.jpg");
+        background-image: url("mahogny2.jpg");
     }
 }
 
@@ -179,7 +179,7 @@ li{
 
 
 .top-lista{
-    background-image: url("bilder/teak.jpg");
+    background-image: url("teak.jpg");
     box-shadow: 0 0 30px rgba(255, 255, 255, 0.4);
     border-radius: 10px;  
     position: relative;    
@@ -559,7 +559,7 @@ header h1{
 /* Footer css */
 
 .footer{
-    background-image: url("bilder/nästanteak.jpg");
+    background-image: url("nästanteak.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     height: 200px;
@@ -568,7 +568,7 @@ header h1{
 }
 
 .textifooter a{
-    background-image: url("bilder/teak.jpg");
+    background-image: url("teak.jpg");
     padding: 10px;
     border-radius: 10px;
     cursor: pointer;
