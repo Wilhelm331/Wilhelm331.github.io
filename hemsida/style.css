@@ -175,6 +175,9 @@ li{
     .button1 {
       display: block;
     }
+    .titel {
+      margin-top: 20px;
+    }
 }
 
 
